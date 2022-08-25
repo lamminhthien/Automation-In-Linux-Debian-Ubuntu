@@ -11,8 +11,12 @@ flatpak run io.github.shiftey.Desktop 1>/dev/null 2>/dev/null &
 flatpak run io.github.Figma_Linux.figma_linux 1>/dev/null 2>/dev/null &
 
 
-# Running vscode
-code 1>/dev/null 2>/dev/null &
+## Running vscode
+# Open Todolist CMS Workspace
+code /home/thienlam/Code/todo-list-cms/ 1>/dev/null 2>/dev/null &
+# Open TodoList NextJS Workspace
+code /home/thienlam/Code/todo-list-website/ 1>/dev/null 2>/dev/null &
+
 
 ## Openning Chrome with specific link
 # Variable of link need open
