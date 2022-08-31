@@ -14,7 +14,9 @@ sudo apt-get update
 sudo apt-get -y install postgresql
 # Install VMWare Tool 
 sudo apt-get update
-sudo apt-get install open-vm-tools-desktop
+sudo apt-get install open-vm-tools-desktop -y
 # Install Git
 sudo apt-get install git -y
+# Install DBeaver for manager database
+flatpak install flathub io.dbeaver.DBeaverCommunity
 
