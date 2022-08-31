@@ -1,3 +1,5 @@
+# Fix borken package before install anything
+sudo apt --fix-broken install -y
 # Install Local Site to Host Wordpress
 wget https://cdn.localwp.com/releases-stable/6.4.2+6012/local-6.4.2-linux.deb
 sudo dpkg -i local-6.4.2-linux.deb
