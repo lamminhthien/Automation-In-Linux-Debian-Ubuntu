@@ -19,7 +19,7 @@ sudo apt-get install open-vm-tools-desktop -y
 # Install Git
 sudo apt-get install git -y
 # Install DBeaver for manager database
-flatpak install -y flathub io.dbeaver.DBeaverCommunity
+flatpak remote-add --if-not-exists io.dbeaver.DBeaverCommunity
 # Install VSCode
 sudo apt-get install wget gpg -y
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -50,18 +50,18 @@ sudo apt install -y dolphin
 # Set Dolphin as default file manager
 xdg-mime default org.kde.dolphin.desktop inode/directory
 # Install GIMP 
-flatpak install -y flathub org.gimp.GIMP
+flatpak remote-add --if-not-exists org.gimp.GIMP
 # Install Inkscape
-flatpak install -y flathub org.inkscape.Inkscape
+flatpak remote-add --if-not-exists org.inkscape.Inkscape
 # Install Figma For Linux
-flatpak install -y flathub io.github.Figma_Linux.figma_linux
+flatpak remote-add --if-not-exists io.github.Figma_Linux.figma_linux
 # Install Github Desktop
-flatpak install -y flathub io.github.shiftey.Desktop
+flatpak remote-add --if-not-exists io.github.shiftey.Desktop
 # Install VLC
-flatpak install -y flathub org.videolan.VLC
+flatpak remote-add --if-not-exists org.videolan.VLC
 # Install WPS Office
-flatpak install -y flathub com.wps.Office
+flatpak remote-add --if-not-exists com.wps.Office
 # Install Lutris
-flatpak install -y flathub net.lutris.Lutris
+flatpak remote-add --if-not-exists net.lutris.Lutris
 # Install Slack
-flatpak install -y flathub com.slack.Slack
+flatpak remote-add --if-not-exists com.slack.Slack
