@@ -63,3 +63,5 @@ flatpak install -y flathub org.videolan.VLC
 flatpak install -y flathub com.wps.Office
 # Install Lutris
 flatpak install -y flathub net.lutris.Lutris
+# Install Slack
+flatpak install -y flathub com.slack.Slack
