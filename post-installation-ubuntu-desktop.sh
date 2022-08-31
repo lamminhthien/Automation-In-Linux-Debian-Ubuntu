@@ -1,6 +1,8 @@
 #!/usr/bin/bash
 # First update every thing
 sudo apt-get update -y
+# Install Flathub
+sudo apt install flatpak -y
 # Add Flathub 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 # Install Local Site to Host Wordpress
@@ -67,3 +69,5 @@ flatpak install -y flathub com.wps.Office
 flatpak install -y flathub net.lutris.Lutris
 # Install Slack
 flatpak install -y flathub com.slack.Slack
+# Generated ssh-keygen
+ssh-keygen -b 2048 -t rsa -f /tmp/sshkey -q -N ""
