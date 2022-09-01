@@ -14,4 +14,4 @@
 # Numpad multiply (Asterisk):KP_Multiply
 # Numpad number key(s):      KP_1
 # Numpad `-`:                KP_Subtract
-python3 /path/to/script.py 'open file explorer' 'dolphin ~/' '<Super>E'
+python3 ./set_customshortcut.py 'open file explorer' 'dolphin ~/' '<Super>E'
