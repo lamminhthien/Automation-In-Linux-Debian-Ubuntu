@@ -8,6 +8,8 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # Install Local Site to Host Wordpress
 wget https://cdn.localwp.com/releases-stable/6.4.2+6012/local-6.4.2-linux.deb
 sudo dpkg -i local-6.4.2-linux.deb
+# Place it after install local site
+sudo apt --fix-broken install -y
 # Install NodeJS
 cd ~
 curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
@@ -71,5 +73,11 @@ flatpak install -y flathub net.lutris.Lutris
 flatpak install -y flathub com.slack.Slack
 # Set default git editor to vim
 git config --global core.editor "vim"
+# Hide other removable disk on dock
+gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
+# Install CopyQ
+flatpak install flathub com.github.hluk.copyq
+# Install notepad++ 
+flatpak install flathub com.github.dail8859.NotepadNext
 # Generated ssh-keygen
 ssh-keygen -b 2048 -t rsa -f /tmp/sshkey -q -N ""
