@@ -80,4 +80,4 @@ flatpak install -y flathub com.github.hluk.copyq
 # Install notepad++ 
 flatpak install -y flathub com.github.dail8859.NotepadNext
 # Generated ssh-keygen
-ssh-keygen -b 2048 -t rsa -f /tmp/sshkey -q -N ""
+sudo ssh-keygen -b 2048 -t rsa -f ~/sshkey -q -N ""
