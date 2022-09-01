@@ -76,8 +76,8 @@ git config --global core.editor "vim"
 # Hide other removable disk on dock
 gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
 # Install CopyQ
-flatpak install flathub com.github.hluk.copyq
+flatpak install -y flathub com.github.hluk.copyq
 # Install notepad++ 
-flatpak install flathub com.github.dail8859.NotepadNext
+flatpak install -y flathub com.github.dail8859.NotepadNext
 # Generated ssh-keygen
 ssh-keygen -b 2048 -t rsa -f /tmp/sshkey -q -N ""
