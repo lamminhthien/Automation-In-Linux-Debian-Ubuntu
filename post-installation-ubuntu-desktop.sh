@@ -69,5 +69,7 @@ flatpak install -y flathub com.wps.Office
 flatpak install -y flathub net.lutris.Lutris
 # Install Slack
 flatpak install -y flathub com.slack.Slack
+# Set default git editor to vim
+git config --global core.editor "vim"
 # Generated ssh-keygen
 ssh-keygen -b 2048 -t rsa -f /tmp/sshkey -q -N ""
