@@ -85,3 +85,5 @@ sudo ssh-keygen -b 2048 -t rsa -f ~/sshkey -q -N ""
 sudo chmod +x install_docker.sh && sudo ./install_docker.sh
 # Install OnlyOffice
 sudo chmod +x install_only_office.sh && sudo ./install_only_office.sh
+# Install XnView
+sudo chmod +x install_xnview.sh && sudo ./install_xnview.sh
