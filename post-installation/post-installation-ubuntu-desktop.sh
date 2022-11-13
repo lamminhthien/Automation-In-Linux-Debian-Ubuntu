@@ -81,3 +81,5 @@ flatpak install -y flathub com.github.hluk.copyq
 flatpak install -y flathub com.github.dail8859.NotepadNext
 # Generated ssh-keygen
 sudo ssh-keygen -b 2048 -t rsa -f ~/sshkey -q -N ""
+# Install Docker
+sudo chmod +x install_docker.sh && sudo ./install_docker.sh
