@@ -3,7 +3,7 @@
 sudo apt-get update -y
 # Install Flathub
 sudo apt install flatpak -y
-# Add Flathub 
+# Add Flathub
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 # Install Local Site to Host Wordpress
 wget https://cdn.localwp.com/releases-stable/6.4.2+6012/local-6.4.2-linux.deb
@@ -19,7 +19,7 @@ sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 sudo apt-get update
 sudo apt-get -y install postgresql
-# Install VMWare Tool 
+# Install VMWare Tool
 sudo apt-get update
 sudo apt-get install open-vm-tools-desktop -y
 # Install Git
@@ -55,7 +55,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt install -y dolphin
 # Set Dolphin as default file manager
 xdg-mime default org.kde.dolphin.desktop inode/directory
-# Install GIMP 
+# Install GIMP
 flatpak install -y flathub org.gimp.GIMP
 # Install Inkscape
 flatpak install -y flathub org.inkscape.Inkscape
@@ -77,9 +77,11 @@ git config --global core.editor "vim"
 gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
 # Install CopyQ
 flatpak install -y flathub com.github.hluk.copyq
-# Install notepad++ 
+# Install notepad++
 flatpak install -y flathub com.github.dail8859.NotepadNext
 # Generated ssh-keygen
 sudo ssh-keygen -b 2048 -t rsa -f ~/sshkey -q -N ""
 # Install Docker
 sudo chmod +x install_docker.sh && sudo ./install_docker.sh
+# Install OnlyOffice
+sudo chmod +x install_only_office.sh && sudo ./install_only_office.sh
