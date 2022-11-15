@@ -11,4 +11,6 @@
 chmod +x -R ./
 ```
 4. enjoy or modified my script for your IT or Developer work.
+5. ![image](https://user-images.githubusercontent.com/99172799/201853100-87c18fda-0ec1-4f7a-aca4-6db8dd7857a8.png)
+
 
